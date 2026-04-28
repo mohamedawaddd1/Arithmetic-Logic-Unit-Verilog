@@ -1,0 +1,16 @@
+Adam Mohamed Elmasry 1220113 :
+SW: Remainder-Alu[Remainder]
+
+Ahmed Wael Mohamed 1220162 :
+SW: Subtract-Alu[Subtract]
+
+Youssef Bassem Lamey 1220212 :
+SW: Multiply- Alu[multiply]
+
+Mohamed Ahmed Sayed Awad 1220140 :
+SW: Add - Alu[Add]
+
+
+
+HW: 
+As we faced alot of problems with the ICs and many other components, we had to start over multiple times so we decided instead of working each on his part to work together testing and checking each IC, each gate, each jumper wire using an LED and a resistor to see if they work properly or not. Also we checked every output of the process to try and decrease the area of search for errors.

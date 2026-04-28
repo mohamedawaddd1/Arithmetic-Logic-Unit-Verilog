@@ -1,0 +1,107 @@
+# vsim alu 
+# Start time: 15:04:24 on May 12,2024
+# Loading work.alu
+# Loading work.add_sub
+# Loading work.mul
+# Loading work.HA
+# Loading work.rem
+add wave -position insertpoint  \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/S \
+sim:/alu/R \
+sim:/alu/SF \
+sim:/alu/ZF \
+sim:/alu/DZF \
+sim:/alu/AS_res \
+sim:/alu/M_res \
+sim:/alu/R_res
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 001 0
+force -freeze sim:/alu/S 00 0
+run
+force -freeze sim:/alu/A 101 0
+run
+force -freeze sim:/alu/A 111 0
+run
+force -freeze sim:/alu/A 110 0
+force -freeze sim:/alu/B 011 0
+run
+force -freeze sim:/alu/A 010 0
+run
+force -freeze sim:/alu/A 111 0
+force -freeze sim:/alu/B 111 0
+run
+force -freeze sim:/alu/B 101 0
+run
+force -freeze sim:/alu/A 000 0
+force -freeze sim:/alu/B 000 0
+run
+force -freeze sim:/alu/A 100 0
+force -freeze sim:/alu/B 000 0
+run
+force -freeze sim:/alu/S 01 0
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 001 0
+run
+force -freeze sim:/alu/A 101 0
+run
+force -freeze sim:/alu/A 111 0
+run
+force -freeze sim:/alu/B 111 0
+run
+force -freeze sim:/alu/A 010 0
+force -freeze sim:/alu/B 011 0
+run
+force -freeze sim:/alu/B 000 0
+run
+force -freeze sim:/alu/B 101 0
+run
+force -freeze sim:/alu/A 000 0
+force -freeze sim:/alu/B 000 0
+run
+force -freeze sim:/alu/S 10 0
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 001 0
+run
+force -freeze sim:/alu/A 110 0
+run
+force -freeze sim:/alu/B 111 0
+run
+force -freeze sim:/alu/A 111 0
+force -freeze sim:/alu/B 011 0
+run
+force -freeze sim:/alu/A 010 0
+force -freeze sim:/alu/B 001 0
+run
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 011 0
+run
+force -freeze sim:/alu/A 110 0
+force -freeze sim:/alu/B 000 0
+run
+force -freeze sim:/alu/A 100 0
+run
+force -freeze sim:/alu/S 11 0
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 001 0
+run
+force -freeze sim:/alu/B 011 0
+run
+force -freeze sim:/alu/A 101 0
+run
+force -freeze sim:/alu/A 110 0
+run
+force -freeze sim:/alu/B 010 0
+run
+force -freeze sim:/alu/A 001 0
+run
+force -freeze sim:/alu/A 000 0
+force -freeze sim:/alu/B 001 0
+run
+force -freeze sim:/alu/A 001 0
+force -freeze sim:/alu/B 001 0
+force -freeze sim:/alu/B 000 0
+run
+# End time: 15:22:00 on May 12,2024, Elapsed time: 0:17:36
+# Errors: 0, Warnings: 0
